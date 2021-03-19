@@ -7,7 +7,7 @@ This repository was created by Rodrigo Espíndola Godoy as part of the "Getting 
 # Repository Content
 
 1. [**script.R**](https://github.com/rodrigoegodoy/Gettingandcleaningdata/blob/master/script.R) - This script execute the preparation and modification 
-process to make an "Human Activity Recognition Using Smartphones Data Set" tidy data. Five mains steps were used to accomplish the final result:
+process to make an "Human Activity Recognition Using Smartphones Data Set" tidy data. Five mains steps were used to accomplish the final result:  
     i) Merges the training and the test sets to create one data set.  
     ii) Extracts only the measurements on the mean and standard deviation for each measurement.  
     iii) Uses descriptive activity names to name the activities in the data set.  
