@@ -83,20 +83,20 @@ To read the data use "header = FALSE" as the variable names will be inserted aft
 ## 4. Labeling the data set with descriptive variable names. 
 
 **Remove captalized words, brakets, unnecessary symbols, and give full name to abbreviated variables**  
-```colnames(Dataactivity) <- gsub("^t", "time", colnames(Dataactivity))```  **variables beginning with t changed to time**
-```colnames(Dataactivity) <- gsub("Body", "body", colnames(Dataactivity))``` **lower case Body variable**  
-```colnames(Dataactivity) <- gsub("Gravity", "gravity", colnames(Dataactivity))```  **lower case Gravity variable**
-```colnames(Dataactivity) <- gsub("Acc", "accelerometer", colnames(Dataactivity))``` **Acc changed to accelometer**
-```colnames(Dataactivity) <- gsub("Mag", "magnitude", colnames(Dataactivity))``` **Mag changed to magnitude**  
-```colnames(Dataactivity) <- gsub("Gyro", "gyroscope", colnames(Dataactivity))``` **Gyro changed to gyroscope** 
-```colnames(Dataactivity) <- gsub("^f", "frequency", colnames(Dataactivity))``` **variables beginning with f changed to frequency** 
-```colnames(Dataactivity) <- gsub("Freq", "frequency", colnames(Dataactivity))``` **Freq changed to frequency** 
-```colnames(Dataactivity) <- gsub("Jerk", "jerk", colnames(Dataactivity))``` **Jerk changed to jerk**
-```colnames(Dataactivity) <- gsub("[()]", "", colnames(Dataactivity))``` **"()" removed from variables names**  
-```colnames(Dataactivity) <- gsub("-mean", "mean", colnames(Dataactivity))``` **"-" removed from mean** 
-```colnames(Dataactivity) <- gsub("Mean", "mean", colnames(Dataactivity))``` **Mean changed to mean** 
-```colnames(Dataactivity) <- gsub("-std", "std", colnames(Dataactivity))``` **"-" removed from std**  
-```colnames(Dataactivity) <- gsub(",", "-", colnames(Dataactivity))``` **"," changed to "-"** 
+```colnames(Dataactivity) <- gsub("^t", "time", colnames(Dataactivity))```  **variables beginning with t changed to time**  
+```colnames(Dataactivity) <- gsub("Body", "body", colnames(Dataactivity))``` **lower case Body variable**    
+```colnames(Dataactivity) <- gsub("Gravity", "gravity", colnames(Dataactivity))```  **lower case Gravity variable**  
+```colnames(Dataactivity) <- gsub("Acc", "accelerometer", colnames(Dataactivity))``` **Acc changed to accelometer**  
+```colnames(Dataactivity) <- gsub("Mag", "magnitude", colnames(Dataactivity))``` **Mag changed to magnitude**    
+```colnames(Dataactivity) <- gsub("Gyro", "gyroscope", colnames(Dataactivity))``` **Gyro changed to gyroscope**   
+```colnames(Dataactivity) <- gsub("^f", "frequency", colnames(Dataactivity))``` **variables beginning with f changed to frequency**   
+```colnames(Dataactivity) <- gsub("Freq", "frequency", colnames(Dataactivity))``` **Freq changed to frequency**   
+```colnames(Dataactivity) <- gsub("Jerk", "jerk", colnames(Dataactivity))``` **Jerk changed to jerk**  
+```colnames(Dataactivity) <- gsub("[()]", "", colnames(Dataactivity))``` **"()" removed from variables names**    
+```colnames(Dataactivity) <- gsub("-mean", "mean", colnames(Dataactivity))``` **"-" removed from mean**   
+```colnames(Dataactivity) <- gsub("Mean", "mean", colnames(Dataactivity))``` **Mean changed to mean**   
+```colnames(Dataactivity) <- gsub("-std", "std", colnames(Dataactivity))``` **"-" removed from std**    
+```colnames(Dataactivity) <- gsub(",", "-", colnames(Dataactivity))``` **"," changed to "-"**   
 
 ## 5. Creating an independent tidy data set with the average of each variable for each activity and each subject  
 
